@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact</title>
+
+ <!-- style css cdn  -->
+ <link rel="stylesheet" href="css/style.css">
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- aos library link  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+<!-- start header section  -->
+   <header class="header">
+
+     <section class="flex">
+        <a href="index.html" class="logo">Education</a>
+
+        <form action="" method="post" class="search-form">
+         <input type="text" name="search-box" placeholder="search here..." required maxlength="100">
+         <button type="submit" class="fa fa-search" name="search-box"></button>
+           </form>
+        <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+        <div class="profile">
+         <img src="imgs/logo.png" alt="">
+         <h3>AhMeD Zakaria</h3>
+         <span>graduated</span>
+         <a href="profile.html" class="btn">View My Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+        </div>
+    </section>
+   </header>
+<!-- end header section  -->
+
+<!-- start side bar section  -->
+<div class="side-bar">
+   
+   <div class="close-side-bar">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="imgs/logo.png" alt="">
+      <h3>AhMeD Zakaria</h3>
+      <span>graduated</span>
+      <a href="profile.html" class="btn">View My Profile</a>
+   </div>
+
+<nav class="navbar">
+   <a href="index.html"> <i class="fas fa-home"></i> <span>Home</span></a>
+   <a href="about.html"> <i class="fas fa-question"></i> <span>About Us</span></a>
+   <a href="cources.html"> <i class="fas fa-graduation-cap"></i> <span>Courses</span></a>
+   <a href="teachers.html"> <i class="fas fa-chalkboard-user"></i> <span>Our Teachers</span></a>
+   <a href="contact.html"> <i class="fas fa-headset"></i> <span>Contact</span></a>
+</nav>
+</div>
+<!-- end side bar section  -->
+
+<!-- ==== start contact section =-====================  -->
+<section class="contact">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="imgs/svg.svg" alt="">
+      </div>
+
+      <form action="">
+         <h3>Contact Us</h3>
+         <input type="text" placeholder="Enter Your Name" name="name" required 
+          maxlength="30" class="box">
+         <input type="email" placeholder="Enter Your email" name="email" required 
+          maxlength="30" class="box">
+         <input type="number" placeholder="Number" name="number" required 
+          maxlength="30" class="box">
+
+          <textarea name="msg" class="box" placeholder="Enter Your Message" required cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" name="submit" class="inline-btn">
+      </form>
+   </div>
+
+      <div class="box-container" >
+
+         <div class="box" data-aos="zoom-out-down" >
+            <i class="fa-brands fa-facebook"></i>
+            <h3>Facebook</h3> 
+            <a href="https://www.facebook.com/a7med.ahlawy1/" target="_blank">Click Here</a> 
+         </div>
+
+         <div class="box" data-aos="zoom-in-left">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Address</h3>
+            <a href="https://accounts.google.com/" target="_blank">ahmed018128@gmail.com</a>
+         </div>
+
+         <div class="box" data-aos="zoom-in">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <a href="#">NY. California, CA, 245 ST.</a>
+         </div>
+
+      </div>
+
+</section>
+<!-- ==== end contact section =-====================  -->
+
+
+<!-- start footer section  -->
+<footer class="footer">
+   &copy; copyright @ 2022 By <span>Ahmed Zakaria</span> | All Rights Reserved.
+</footer>
+<!-- end footer section  -->
+
+ <!-- script java script  -->
+ 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script>
+   AOS.init();
+ </script>
+
+ <script src="js/script.js"></script>
+</body>
+</html>
